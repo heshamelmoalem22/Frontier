@@ -1,13 +1,10 @@
 import styled, { css, keyframes } from "styled-components";
 
-// const test = css`
-//   text-align: center;
-//   ${10 > 5 && "background-color: yellow"}
-// `;
+
 const fadeIn = keyframes`
   from {
     opacity: 0;
-    transform: translateY(-10px); /* شوية حركة خفيفة */
+    transform: translateY(-10px); 
   }
   to {
     opacity: 1;

@@ -133,12 +133,12 @@ function TableOperations({ children }) {
         {children}
       </TableOperationsContainer>
 
-      {/* زر القائمة للشاشات الصغيرة */}
+     
       <MobileMenuButton ref={buttonRef} onClick={handleMenuClick}>
         <HiEllipsisVertical />
       </MobileMenuButton>
 
-      {/* المودال للشاشات الصغيرة */}
+     
       {isModalOpen &&
         createPortal(
           <ModalOverlay>
