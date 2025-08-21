@@ -1,8 +1,34 @@
-# React + Vite
+# The Heaven
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React project built with Vite.
 
-Currently, two official plugins are available:
+## Table of Contents
+- [Description](#description)
+- [Technologies](#technologies)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Scripts](#scripts)
+- [Folder Structure](#folder-structure)
+- [License](#license)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Description
+This project is a front-end application built with React and Vite.  
+It uses features like React Router, Styled Components, and integrates with Supabase.
+
+## Technologies
+- React 18
+- Vite
+- Styled Components
+- React Router Dom
+- Supabase
+- React Query
+- Recharts
+- Date-fns
+
+## Installation
+Clone the repository and install dependencies:
+
+```bash
+git clone https://github.com/heshamelmoalem22/Frontier.git
+cd Frontier
+npm install
