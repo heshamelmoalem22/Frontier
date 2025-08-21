@@ -1,8 +1,8 @@
 /* eslint-disable no-unused-vars */
-import CheckinBooking from "../features/check-in-out/CheckinBooking"
+import CheckInBooking from "../features/check-in-out/CheckInBooking"
 
 function CheckedIn() {
-    return <CheckinBooking/>
+    return <CheckInBooking/>
 }
 
 export default CheckedIn
