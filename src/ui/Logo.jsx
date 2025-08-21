@@ -38,7 +38,8 @@ function Logo({ variant }) {
     <>
     <GlobalStyle/>
     <StyledLogo>
-      <Img src="/public/attachmentt_115104166.png" alt="Logo" variant={variant} />
+      <Img src="/attachmentt_115104166.png" alt="Logo" variant={variant} />
+
       {/* <StyledText>Frontier</StyledText> */}
     </StyledLogo>
     </>

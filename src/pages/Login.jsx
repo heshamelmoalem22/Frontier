@@ -36,7 +36,7 @@ function Login() {
   return (
     <LoginLayout>
       <LeftColumn>
-        <Logo variant="img2"/>
+        <img src="/attachmentt_115104166.png" style={{ width: "233px"}} />
       </LeftColumn>
 
       <RightColumn>
