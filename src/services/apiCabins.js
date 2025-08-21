@@ -1,5 +1,5 @@
 /* eslint-disable no-unused-vars */
-/* global console */
+
 // import { data } from "react-router-dom";
 import { replace } from "react-router-dom";
 import supabase, { supabaseUrl } from "./supabase";
@@ -16,7 +16,7 @@ const  { data, error } = await supabase
         throw new Error('Failed to fetch cabins');
     }
 return data;
-};
+}
 export async function createEditCabin(newCabin, id) {
   const hasImagePath = newCabin.image?.startsWith?.(supabaseUrl);
 
@@ -74,4 +74,4 @@ const { error,data } = await supabase
         throw new Error('Failed to delete cabins');
     }
 return data;
-};
+}

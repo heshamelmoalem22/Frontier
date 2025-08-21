@@ -1,5 +1,6 @@
+/* eslint-disable no-undef */
 /* eslint-disable no-unused-vars */
-/* global URLSearchParams */
+
 import { useSearchParams } from "react-router-dom";
 import styled, { css } from "styled-components";
 
