@@ -9,7 +9,7 @@ const StyledLogo = styled.div`
 const fadeIn = keyframes`
   from {
     opacity: 0;
-    transform: translateY(-10px); /* شوية حركة خفيفة */
+    transform: translateY(-10px); 
   }
   to {
     opacity: 1;
